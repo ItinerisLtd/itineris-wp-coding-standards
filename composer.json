@@ -1,0 +1,60 @@
+{
+    "name": "itinerisltd/itineris-wp-coding-standards",
+    "type": "phpcodesniffer-standard",
+    "description": "PHP_CodeSniffer rules for Itineris WordPress projects",
+    "keywords": [
+        "phpcs",
+        "standards",
+        "wordpress",
+        "itineris"
+    ],
+    "homepage": "https://itinerisltd.github.io/itineris-wp-coding-standards/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Itineris Limited",
+            "email": "hello@itineris.co.uk",
+            "homepage": "https://itineris.co.uk/",
+            "role": "Company"
+        },
+        {
+            "name": "Tang Rufus",
+            "email": "tangrufus@gmail.com",
+            "homepage": "https://typist.tech/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "automattic/vipwpcs": "^0.3.0",
+        "wp-coding-standards/wpcs": "^1.1"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "prefer-stable": true,
+    "scripts": {
+        "pretag": [
+            "composer update",
+            "composer normalize",
+            "doctoc README.md",
+            "github_changelog_generator --no-verbose"
+        ]
+    },
+    "support": {
+        "email": "hello@itineris.co.uk",
+        "issues": "https://github.com/ItinerisLtd/itineris-wp-coding-standards/issues",
+        "source": "https://github.com/ItinerisLtd/itineris-wp-coding-standards"
+    }
+}
