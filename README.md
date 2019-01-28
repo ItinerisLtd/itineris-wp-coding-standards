@@ -87,7 +87,8 @@ Then, define a composer script:
 # composer.json
 {
   "scripts": {
-    "check-style": "phpcs --colors -p"
+    "style:check": "phpcs",
+    "style:fix": "phpcbf"
   }
 }
 ```
