@@ -4,6 +4,8 @@
 
     <rule ref="PSR2"/>
 
+    <rule ref="PSR12"/>
+
     <rule ref="WordPressVIPMinimum"/>
 
     <rule ref="WordPress">
