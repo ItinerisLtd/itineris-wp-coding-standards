@@ -1,8 +1,19 @@
 # Change Log
 
+## [0.2.0](https://github.com/ItinerisLtd/itineris-wp-coding-standards/tree/0.2.0) (2019-01-28)
+[Full Changelog](https://github.com/ItinerisLtd/itineris-wp-coding-standards/compare/0.1.0...0.2.0)
+
+**Merged pull requests:**
+
+- Fix: composer require automattic/vipwpcs [\#6](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/6) ([TangRufus](https://github.com/TangRufus))
+- Add PSR12 [\#5](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/5) ([TangRufus](https://github.com/TangRufus))
+- composer update [\#4](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/4) ([TangRufus](https://github.com/TangRufus))
+- Update README.md [\#3](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/3) ([TangRufus](https://github.com/TangRufus))
+
 ## [0.1.0](https://github.com/ItinerisLtd/itineris-wp-coding-standards/tree/0.1.0) (2018-10-18)
 **Merged pull requests:**
 
+- Version bump 0.1.0 [\#2](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/2) ([TangRufus](https://github.com/TangRufus))
 - Update readme [\#1](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/1) ([TangRufus](https://github.com/TangRufus))
 
 
