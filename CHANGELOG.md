@@ -1,10 +1,20 @@
 # Change Log
 
+## [0.2.1](https://github.com/ItinerisLtd/itineris-wp-coding-standards/tree/0.2.1) (2019-02-18)
+[Full Changelog](https://github.com/ItinerisLtd/itineris-wp-coding-standards/compare/0.2.0...0.2.1)
+
+**Merged pull requests:**
+
+- Readme: Fix example [\#10](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/10) ([TangRufus](https://github.com/TangRufus))
+- Exclude `WordPressVIPMinimum.VIP.RestrictedFunctions.wp\_remote\_get\_wp\_remote\_get` [\#9](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/9) ([TangRufus](https://github.com/TangRufus))
+- Readme: Better example [\#8](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/8) ([TangRufus](https://github.com/TangRufus))
+
 ## [0.2.0](https://github.com/ItinerisLtd/itineris-wp-coding-standards/tree/0.2.0) (2019-01-28)
 [Full Changelog](https://github.com/ItinerisLtd/itineris-wp-coding-standards/compare/0.1.0...0.2.0)
 
 **Merged pull requests:**
 
+- Version bump 0.2.0 [\#7](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/7) ([TangRufus](https://github.com/TangRufus))
 - Fix: composer require automattic/vipwpcs [\#6](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/6) ([TangRufus](https://github.com/TangRufus))
 - Add PSR12 [\#5](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/5) ([TangRufus](https://github.com/TangRufus))
 - composer update [\#4](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/4) ([TangRufus](https://github.com/TangRufus))
