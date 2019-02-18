@@ -6,6 +6,6 @@
 
 # Export white-listed production code only.
 /Itineris       -export-ignore
-/composer.json  -export-ignore
+/composer.*     -export-ignore
 /LICENSE        -export-ignore
 /README.md      -export-ignore
