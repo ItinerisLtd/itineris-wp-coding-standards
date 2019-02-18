@@ -52,9 +52,6 @@ First, create [`phpcs.xml`](https://github.com/squizlabs/PHP_CodeSniffer/wiki/An
 <ruleset name="MyAwesomePlugin">
     <!-- Check all files under project root -->
     <file>./</file>
-
-    <!-- Show sniff codes in all reports -->
-    <arg value="s"/>
   
     <!-- Show colors in console -->
     <arg value="-colors"/>
