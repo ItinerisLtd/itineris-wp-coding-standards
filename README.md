@@ -55,6 +55,12 @@ First, create [`phpcs.xml`](https://github.com/squizlabs/PHP_CodeSniffer/wiki/An
 
     <!-- Show sniff codes in all reports -->
     <arg value="s"/>
+  
+    <!-- Show colors in console -->
+    <arg value="-colors"/>
+
+    <!-- Show progress and sniff codes in all reports -->
+    <arg value="sp"/>
 
     <!-- Install custom rulesets -->
     <config name="installed_paths" value="vendor/wp-coding-standards/wpcs,vendor/automattic/vipwpcs,vendor/itinerisltd/itineris-wp-coding-standards"/>
