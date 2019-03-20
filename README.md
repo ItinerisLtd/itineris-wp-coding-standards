@@ -58,6 +58,9 @@ First, create [`phpcs.xml`](https://github.com/squizlabs/PHP_CodeSniffer/wiki/An
 
     <!-- Show progress and sniff codes in all reports -->
     <arg value="sp"/>
+  
+    <!-- Scan only PHP files -->
+    <arg name="extensions" value="php"/>
 
     <!-- Install custom rulesets -->
     <config name="installed_paths" value="vendor/wp-coding-standards/wpcs,vendor/automattic/vipwpcs,vendor/itinerisltd/itineris-wp-coding-standards"/>
