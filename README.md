@@ -13,7 +13,6 @@
 - [Goal](#goal)
 - [Installation](#installation)
 - [Usage](#usage)
-- [PrettyCI](#prettyci)
 - [Required Readings](#required-readings)
 - [FAQs](#faqs)
   - [Will you add support for older PHP versions?](#will-you-add-support-for-older-php-versions)
