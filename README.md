@@ -99,9 +99,10 @@ Then, define a composer script:
 }
 ```
 
-Run the command:
+Run the commands:
 ```php
-$ composer check-style
+$ composer style:check
+$ composer style:fix
 ```
 
 ## Required Readings
