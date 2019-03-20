@@ -40,13 +40,14 @@ Using it on [Bedrock](https://github.com/roots/bedrock) or [Sage](https://github
 
 ## Installation
 
-```bash
+```sh-session
 $ composer require --dev itinerisltd/itineris-wp-coding-standards
 ```
 
 ## Usage
 
 First, create [`phpcs.xml`](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset) on project root:
+
 ```xml
 <?xml version="1.0"?>
 <ruleset name="MyAwesomePlugin">
@@ -89,6 +90,7 @@ First, create [`phpcs.xml`](https://github.com/squizlabs/PHP_CodeSniffer/wiki/An
 ```
 
 Then, define a composer script:
+
 ```json
 # composer.json
 {
@@ -100,7 +102,8 @@ Then, define a composer script:
 ```
 
 Run the commands:
-```php
+
+```sh-session
 $ composer style:check
 $ composer style:fix
 ```
