@@ -13,7 +13,6 @@
 - [Goal](#goal)
 - [Installation](#installation)
 - [Usage](#usage)
-- [PrettyCI](#prettyci)
 - [Required Readings](#required-readings)
 - [FAQs](#faqs)
   - [Will you add support for older PHP versions?](#will-you-add-support-for-older-php-versions)
@@ -40,25 +39,26 @@ Using it on [Bedrock](https://github.com/roots/bedrock) or [Sage](https://github
 
 ## Installation
 
-```bash
+```sh-session
 $ composer require --dev itinerisltd/itineris-wp-coding-standards
 ```
 
 ## Usage
 
 First, create [`phpcs.xml`](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset) on project root:
+
 ```xml
 <?xml version="1.0"?>
 <ruleset name="MyAwesomePlugin">
     <!-- Check all files under project root -->
     <file>./</file>
-  
+
     <!-- Show colors in console -->
     <arg value="-colors"/>
 
     <!-- Show progress and sniff codes in all reports; Show progress of the run -->
     <arg value="sp"/>
-  
+
     <!-- Scan only PHP files -->
     <arg name="extensions" value="php"/>
 
@@ -89,6 +89,7 @@ First, create [`phpcs.xml`](https://github.com/squizlabs/PHP_CodeSniffer/wiki/An
 ```
 
 Then, define a composer script:
+
 ```json
 # composer.json
 {
@@ -99,27 +100,12 @@ Then, define a composer script:
 }
 ```
 
-Run the command:
-```php
-$ composer check-style
+Run the commands:
+
+```sh-session
+$ composer style:check
+$ composer style:fix
 ```
-
-## PrettyCI
-
-Create [`.prettyci.composer.json`](https://prettyci.com/documentation) at project root:
-```php
-# .prettyci.composer.json
-{
-  "require-dev": {
-       "itinerisltd/itineris-wp-coding-standards": "^999.999.999"
-   }
-}
-```
-
-To make [PrettyCI](https://prettyci.com) works, ensure:
- - you created [`.prettyci.composer.json`](https://prettyci.com/documentation) at project root
- - you created [`phpcs.xml`](#usage) at project root
- - versions in `.prettyci.composer.json` are the same as in `composer.json`
 
 ## Required Readings
 
@@ -141,14 +127,15 @@ Don't use it on **end of life** or **security fixes only** PHP versions.
 
 - Articles on [Itineris' blog](https://www.itineris.co.uk/blog/)
 - More projects on [Itineris' GitHub profile](https://github.com/itinerisltd)
+- More plugins on [Itineris' wp.org profile](https://profiles.wordpress.org/itinerisltd/#content-plugins)
 - Follow [@itineris_ltd](https://twitter.com/itineris_ltd) and [@TangRufus](https://twitter.com/tangrufus) on Twitter
 - Hire [Itineris](https://www.itineris.co.uk/services/) to build your next awesome site
 
 ### This isn't on wp.org. Where can I give a ⭐️⭐️⭐️⭐️⭐️ review?
 
-Thanks! Glad you like it. It's important to make my boss know somebody is using this project. Instead of giving reviews on wp.org, consider:
+Thanks! Glad you like it. It's important to let my boss knows somebody is using this project. Instead of giving reviews on wp.org, consider:
 
-- tweet something good with mentioning [@itineris_ltd](https://twitter.com/itineris_ltd)
+- tweet something good with mentioning [@itineris_ltd](https://twitter.com/itineris_ltd) and [@TangRufus](https://twitter.com/tangrufus)
 - star this [Github repo](https://github.com/ItinerisLtd/itineris-wp-coding-standards)
 - watch this [Github repo](https://github.com/ItinerisLtd/itineris-wp-coding-standards)
 - write blog posts

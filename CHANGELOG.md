@@ -1,10 +1,20 @@
 # Change Log
 
+## [0.2.3](https://github.com/ItinerisLtd/itineris-wp-coding-standards/tree/0.2.3) (2019-03-20)
+[Full Changelog](https://github.com/ItinerisLtd/itineris-wp-coding-standards/compare/0.2.2...0.2.3)
+
+**Merged pull requests:**
+
+- Exclude rules [\#16](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/16) ([TangRufus](https://github.com/TangRufus))
+- Readme: Better comment about `phpcs` arguments [\#15](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/15) ([TangRufus](https://github.com/TangRufus))
+- Readme: Scan only PHP files [\#14](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/14) ([TangRufus](https://github.com/TangRufus))
+
 ## [0.2.2](https://github.com/ItinerisLtd/itineris-wp-coding-standards/tree/0.2.2) (2019-02-19)
 [Full Changelog](https://github.com/ItinerisLtd/itineris-wp-coding-standards/compare/0.2.1...0.2.2)
 
 **Merged pull requests:**
 
+- Version bump 0.2.2 [\#13](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/13) ([TangRufus](https://github.com/TangRufus))
 - composer require php:^7.0 [\#12](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/12) ([TangRufus](https://github.com/TangRufus))
 
 ## [0.2.1](https://github.com/ItinerisLtd/itineris-wp-coding-standards/tree/0.2.1) (2019-02-18)
