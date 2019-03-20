@@ -52,13 +52,13 @@ First, create [`phpcs.xml`](https://github.com/squizlabs/PHP_CodeSniffer/wiki/An
 <ruleset name="MyAwesomePlugin">
     <!-- Check all files under project root -->
     <file>./</file>
-  
+
     <!-- Show colors in console -->
     <arg value="-colors"/>
 
     <!-- Show progress and sniff codes in all reports; Show progress of the run -->
     <arg value="sp"/>
-  
+
     <!-- Scan only PHP files -->
     <arg name="extensions" value="php"/>
 
@@ -103,23 +103,6 @@ Run the command:
 ```php
 $ composer check-style
 ```
-
-## PrettyCI
-
-Create [`.prettyci.composer.json`](https://prettyci.com/documentation) at project root:
-```php
-# .prettyci.composer.json
-{
-  "require-dev": {
-       "itinerisltd/itineris-wp-coding-standards": "^999.999.999"
-   }
-}
-```
-
-To make [PrettyCI](https://prettyci.com) works, ensure:
- - you created [`.prettyci.composer.json`](https://prettyci.com/documentation) at project root
- - you created [`phpcs.xml`](#usage) at project root
- - versions in `.prettyci.composer.json` are the same as in `composer.json`
 
 ## Required Readings
 
