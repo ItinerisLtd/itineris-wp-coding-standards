@@ -124,16 +124,17 @@ Don't use it on **end of life** or **security fixes only** PHP versions.
 
 - Articles on [Itineris' blog](https://www.itineris.co.uk/blog/)
 - More projects on [Itineris' GitHub profile](https://github.com/itinerisltd)
+- More plugins on [Itineris' wp.org profile](https://profiles.wordpress.org/itinerisltd/#content-plugins)
 - Follow [@itineris_ltd](https://twitter.com/itineris_ltd) and [@TangRufus](https://twitter.com/tangrufus) on Twitter
 - Hire [Itineris](https://www.itineris.co.uk/services/) to build your next awesome site
 
 ### This isn't on wp.org. Where can I give a ⭐️⭐️⭐️⭐️⭐️ review?
 
-Thanks! Glad you like it. It's important to make my boss know somebody is using this project. Instead of giving reviews on wp.org, consider:
+Thanks! Glad you like it. It's important to let my boss knows somebody is using this project. Instead of giving reviews on wp.org, consider:
 
-- tweet something good with mentioning [@itineris_ltd](https://twitter.com/itineris_ltd)
-- star this [Github repo](https://github.com/ItinerisLtd/itineris-wp-coding-standards)
-- watch this [Github repo](https://github.com/ItinerisLtd/itineris-wp-coding-standards)
+- tweet something good with mentioning [@itineris_ltd](https://twitter.com/itineris_ltd) and [@TangRufus](https://twitter.com/tangrufus)
+- star this [Github repo](https://github.com/ItinerisLtd/gfe-preset)
+- watch this [Github repo](https://github.com/ItinerisLtd/gfe-preset)
 - write blog posts
 - submit pull requests
 - [hire Itineris](https://www.itineris.co.uk/services/)
