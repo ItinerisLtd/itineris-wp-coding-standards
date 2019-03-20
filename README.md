@@ -136,8 +136,8 @@ Don't use it on **end of life** or **security fixes only** PHP versions.
 Thanks! Glad you like it. It's important to let my boss knows somebody is using this project. Instead of giving reviews on wp.org, consider:
 
 - tweet something good with mentioning [@itineris_ltd](https://twitter.com/itineris_ltd) and [@TangRufus](https://twitter.com/tangrufus)
-- star this [Github repo](https://github.com/ItinerisLtd/gfe-preset)
-- watch this [Github repo](https://github.com/ItinerisLtd/gfe-preset)
+- star this [Github repo](https://github.com/ItinerisLtd/itineris-wp-coding-standards)
+- watch this [Github repo](https://github.com/ItinerisLtd/itineris-wp-coding-standards)
 - write blog posts
 - submit pull requests
 - [hire Itineris](https://www.itineris.co.uk/services/)
