@@ -30,7 +30,7 @@
 
 [Itineris WP Coding Standards](https://github.com/ItinerisLtd/itineris-wp-coding-standards) is a project with rulesets for code style and quality tools to be used in Itineris WordPress projects.
 
-It is a mix with [PSR-1](https://www.php-fig.org/psr/psr-1/), [PSR-2](https://www.php-fig.org/psr/psr-2), [PSR-4](https://www.php-fig.org/psr/psr-4/), [PSR-12](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md), [WordPress Coding Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards) and [Automattic/VIP-Coding-Standards](https://github.com/Automattic/VIP-Coding-Standards).
+It is a mix with [PSR-1](https://www.php-fig.org/psr/psr-1/), [PSR-2](https://www.php-fig.org/psr/psr-2), [PSR-4](https://www.php-fig.org/psr/psr-4/), [PSR-12](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md) and [WordPress Coding Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards).
 
 Whenever there's a conflict between PSR and WPCS, always prefer PSR.
 
@@ -63,7 +63,7 @@ First, create [`phpcs.xml`](https://github.com/squizlabs/PHP_CodeSniffer/wiki/An
     <arg name="extensions" value="php"/>
 
     <!-- Install custom rulesets -->
-    <config name="installed_paths" value="vendor/wp-coding-standards/wpcs,vendor/automattic/vipwpcs,vendor/itinerisltd/itineris-wp-coding-standards"/>
+    <config name="installed_paths" value="vendor/wp-coding-standards/wpcs,vendor/itinerisltd/itineris-wp-coding-standards"/>
 
     <!-- Use Itineris WP Coding Standards -->
     <rule ref="Itineris"/>
@@ -77,18 +77,18 @@ First, create [`phpcs.xml`](https://github.com/squizlabs/PHP_CodeSniffer/wiki/An
     <exclude-pattern>/vendor/*</exclude-pattern>
 
     <!-- TODO: Define minimum supported WordPress version -->
-    <config name="minimum_supported_wp_version" value="4.9"/>
+    <config name="minimum_supported_wp_version" value="5.2"/>
 
     <!-- TODO: Define expected text domains -->
     <rule ref="WordPress.WP.I18n">
         <properties>
-            <property name="text_domain" type="array" value="wc-worldpay,woocommerce"/>
+            <property name="text_domain" type="array" value="my-plugin,my-theme,woocommerce,sage"/>
         </properties>
     </rule>
 </ruleset>
 ```
 
-Then, define a composer script:
+Then, define [composer scripts](https://getcomposer.org/doc/articles/scripts.md):
 
 ```json
 # composer.json
@@ -119,7 +119,7 @@ $ composer style:fix
 
 ### Will you add support for older PHP versions?
 
-Never! This plugin will only works on [actively supported PHP versions](https://secure.php.net/supported-versions.php).
+Never! This plugin will only work on [actively supported PHP versions](https://secure.php.net/supported-versions.php).
 
 Don't use it on **end of life** or **security fixes only** PHP versions.
 
@@ -127,19 +127,19 @@ Don't use it on **end of life** or **security fixes only** PHP versions.
 
 - Articles on [Itineris' blog](https://www.itineris.co.uk/blog/)
 - More projects on [Itineris' GitHub profile](https://github.com/itinerisltd)
-- More plugins on [Itineris' wp.org profile](https://profiles.wordpress.org/itinerisltd/#content-plugins)
+- More plugins on [Itineris](https://profiles.wordpress.org/itinerisltd/#content-plugins) and [TangRufus](https://profiles.wordpress.org/tangrufus/#content-plugins) wp.org profiles
 - Follow [@itineris_ltd](https://twitter.com/itineris_ltd) and [@TangRufus](https://twitter.com/tangrufus) on Twitter
 - Hire [Itineris](https://www.itineris.co.uk/services/) to build your next awesome site
 
-### This isn't on wp.org. Where can I give a ⭐️⭐️⭐️⭐️⭐️ review?
+### This isn't on wp.org. Where can I give a :star::star::star::star::star: review?
 
-Thanks! Glad you like it. It's important to let my boss knows somebody is using this project. Instead of giving reviews on wp.org, consider:
+Thanks! Glad you like it. It's important to let my boss knows somebody is using this project. Please consider:
 
 - tweet something good with mentioning [@itineris_ltd](https://twitter.com/itineris_ltd) and [@TangRufus](https://twitter.com/tangrufus)
-- star this [Github repo](https://github.com/ItinerisLtd/itineris-wp-coding-standards)
-- watch this [Github repo](https://github.com/ItinerisLtd/itineris-wp-coding-standards)
+- :star: star this [Github repo](https://github.com/ItinerisLtd/itineris-wp-coding-standards)
+- :eyes: watch this [Github repo](https://github.com/ItinerisLtd/itineris-wp-coding-standards)
 - write blog posts
-- submit pull requests
+- submit [pull requests](https://github.com/ItinerisLtd/itineris-wp-coding-standards)
 - [hire Itineris](https://www.itineris.co.uk/services/)
 
 ## Feedback
@@ -164,5 +164,4 @@ Full list of contributors can be found [here](https://github.com/ItinerisLtd/iti
 
 ## License
 
-[Itineris WP Coding Standards](https://github.com/ItinerisLtd/itineris-wp-coding-standards) is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-Please see [License File](./LICENSE) for more information.
+[Itineris WP Coding Standards](https://github.com/ItinerisLtd/itineris-wp-coding-standards) is released under the [MIT License](https://opensource.org/licenses/MIT).

@@ -3,12 +3,7 @@
     <description>Itineris WordPress Coding Standards</description>
 
     <rule ref="PSR2"/>
-
     <rule ref="PSR12"/>
-
-    <rule ref="WordPressVIPMinimum">
-        <exclude name="WordPressVIPMinimum.VIP.RestrictedFunctions.wp_remote_get_wp_remote_get"/>
-    </rule>
 
     <rule ref="WordPress">
         <exclude name="Generic.Classes.OpeningBraceSameLine.BraceOnNewLine"/>
