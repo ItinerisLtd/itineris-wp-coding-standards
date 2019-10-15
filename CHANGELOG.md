@@ -1,10 +1,18 @@
 # Change Log
 
+## [0.3.1](https://github.com/ItinerisLtd/itineris-wp-coding-standards/tree/0.3.1) (2019-10-15)
+[Full Changelog](https://github.com/ItinerisLtd/itineris-wp-coding-standards/compare/0.3.0...0.3.1)
+
+**Merged pull requests:**
+
+- Update for PSR 12 [\#21](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/21) ([TangRufus](https://github.com/TangRufus))
+
 ## [0.3.0](https://github.com/ItinerisLtd/itineris-wp-coding-standards/tree/0.3.0) (2019-07-11)
 [Full Changelog](https://github.com/ItinerisLtd/itineris-wp-coding-standards/compare/0.2.3...0.3.0)
 
 **Merged pull requests:**
 
+- Version bump 0.3.0 [\#19](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/19) ([TangRufus](https://github.com/TangRufus))
 - Update to `wp-coding-standards/wpcs:^2.1`; Ditch `automattic/vipwpcs` [\#18](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/18) ([TangRufus](https://github.com/TangRufus))
 
 ## [0.2.3](https://github.com/ItinerisLtd/itineris-wp-coding-standards/tree/0.2.3) (2019-03-20)
@@ -16,6 +24,7 @@
 - Exclude rules [\#16](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/16) ([TangRufus](https://github.com/TangRufus))
 - Readme: Better comment about `phpcs` arguments [\#15](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/15) ([TangRufus](https://github.com/TangRufus))
 - Readme: Scan only PHP files [\#14](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/14) ([TangRufus](https://github.com/TangRufus))
+- Update readme [\#1](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/1) ([TangRufus](https://github.com/TangRufus))
 
 ## [0.2.2](https://github.com/ItinerisLtd/itineris-wp-coding-standards/tree/0.2.2) (2019-02-19)
 [Full Changelog](https://github.com/ItinerisLtd/itineris-wp-coding-standards/compare/0.2.1...0.2.2)
@@ -50,7 +59,6 @@
 **Merged pull requests:**
 
 - Version bump 0.1.0 [\#2](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/2) ([TangRufus](https://github.com/TangRufus))
-- Update readme [\#1](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/1) ([TangRufus](https://github.com/TangRufus))
 
 
 

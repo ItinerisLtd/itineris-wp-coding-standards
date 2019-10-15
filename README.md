@@ -49,7 +49,7 @@ First, create [`phpcs.xml`](https://github.com/squizlabs/PHP_CodeSniffer/wiki/An
 
 ```xml
 <?xml version="1.0"?>
-<ruleset name="MyAwesomePlugin">
+<ruleset name="Plugin">
     <!-- Check all files under project root -->
     <file>./</file>
 
@@ -154,7 +154,7 @@ Please see [CHANGELOG](./CHANGELOG.md) for more information on what has changed 
 
 ## Security
 
-If you discover any security related issues, please email [hello@itineris.co.uk](mailto:hello@itineris.co.uk) instead of using the issue tracker.
+If you discover any security related issues, please email [dev@itineris.co.uk](mailto:dev@itineris.co.uk) instead of using the issue tracker.
 
 ## Credits
 
