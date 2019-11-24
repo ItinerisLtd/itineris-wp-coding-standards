@@ -4,8 +4,10 @@
 
     <rule ref="PSR2"/>
     <rule ref="PSR12"/>
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
 
     <rule ref="WordPress">
+        <exclude name="Generic.Arrays.DisallowShortArraySyntax.Found"/>
         <exclude name="Generic.Classes.OpeningBraceSameLine.BraceOnNewLine"/>
         <exclude name="Generic.Commenting.DocComment.MissingShort"/>
         <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
@@ -28,6 +30,9 @@
         <exclude name="WordPress.NamingConventions.ValidFunctionName"/>
         <exclude name="WordPress.NamingConventions.ValidHookName"/>
         <exclude name="WordPress.NamingConventions.ValidVariableName"/>
+        <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.ExtraSpaceAfterCloseParenthesis"/>
+        <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+        <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
         <exclude name="WordPress.WhiteSpace"/>
     </rule>
 </ruleset>
