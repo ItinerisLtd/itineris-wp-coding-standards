@@ -18,6 +18,8 @@
 
         <exclude name="PEAR.Functions.FunctionCallSignature"/>
 
+        <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace"/>
+
         <exclude name="Squiz.Commenting.ClassComment.Missing"/>
         <exclude name="Squiz.Commenting.FileComment.Missing"/>
         <exclude name="Squiz.Commenting.FileComment.MissingPackageTag"/>
