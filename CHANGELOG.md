@@ -1,11 +1,20 @@
 # Changelog
 
+## [0.3.4](https://github.com/ItinerisLtd/itineris-wp-coding-standards/tree/0.3.4) (2019-12-16)
+
+[Full Changelog](https://github.com/ItinerisLtd/itineris-wp-coding-standards/compare/0.3.3...0.3.4)
+
+**Merged pull requests:**
+
+- Exclude `WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis` [\#29](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/29) ([TangRufus](https://github.com/TangRufus))
+
 ## [0.3.3](https://github.com/ItinerisLtd/itineris-wp-coding-standards/tree/0.3.3) (2019-12-16)
 
 [Full Changelog](https://github.com/ItinerisLtd/itineris-wp-coding-standards/compare/0.3.2...0.3.3)
 
 **Merged pull requests:**
 
+- Version bump 0.3.3 [\#28](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/28) ([TangRufus](https://github.com/TangRufus))
 - Exclude `WordPress.PHP.DisallowShortTernary` [\#27](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/27) ([TangRufus](https://github.com/TangRufus))
 
 ## [0.3.2](https://github.com/ItinerisLtd/itineris-wp-coding-standards/tree/0.3.2) (2019-11-24)
