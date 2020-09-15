@@ -19,7 +19,6 @@
   - [It looks awesome. Where can I find some more goodies like this?](#it-looks-awesome-where-can-i-find-some-more-goodies-like-this)
   - [This isn't on wp.org. Where can I give a :star::star::star::star::star: review?](#this-isnt-on-wporg-where-can-i-give-a-starstarstarstarstar-review)
 - [Feedback](#feedback)
-- [Change Log](#change-log)
 - [Security](#security)
 - [Credits](#credits)
 - [License](#license)
@@ -147,10 +146,6 @@ Thanks! Glad you like it. It's important to let my boss knows somebody is using 
 **Please provide feedback!** We want to make this library useful in as many projects as possible.
 Please submit an [issue](https://github.com/ItinerisLtd/itineris-wp-coding-standards/issues/new) and point out what you do and don't like, or fork the project and make suggestions.
 **No issue is too small.**
-
-## Change Log
-
-Please see [CHANGELOG](./CHANGELOG.md) for more information on what has changed recently.
 
 ## Security
 
