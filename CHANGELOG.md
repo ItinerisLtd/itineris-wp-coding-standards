@@ -1,11 +1,13 @@
 # Changelog
 
-## [0.4.1](https://github.com/itinerisltd/itineris-wp-coding-standards/tree/0.4.1) (2022-09-01)
+## [0.5.0](https://github.com/itinerisltd/itineris-wp-coding-standards/tree/0.5.0) (2022-11-23)
 
-[Full Changelog](https://github.com/itinerisltd/itineris-wp-coding-standards/compare/0.4.0...0.4.1)
+[Full Changelog](https://github.com/itinerisltd/itineris-wp-coding-standards/compare/0.4.0...0.5.0)
 
 **Merged pull requests:**
 
+- cr phpcsstandards/phpcsutils:^1.0 [\#37](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/37) ([codepuncher](https://github.com/codepuncher))
+- cr wp-coding-standards/wpcs:dev-develop -W [\#36](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/36) ([codepuncher](https://github.com/codepuncher))
 - update deps [\#35](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/35) ([codepuncher](https://github.com/codepuncher))
 - php 8 [\#34](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/34) ([codepuncher](https://github.com/codepuncher))
 
