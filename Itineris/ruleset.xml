@@ -5,6 +5,9 @@
     <rule ref="PSR2" />
     <rule ref="PSR12" />
     <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
+    <rule ref="Generic.PHP.RequireStrictTypes">
+        <exclude-pattern>/index.php</exclude-pattern>
+    </rule>
 
     <rule ref="WordPress">
         <exclude name="Generic.Arrays.DisallowShortArraySyntax.Found" />
