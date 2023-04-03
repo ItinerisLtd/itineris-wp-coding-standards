@@ -61,6 +61,7 @@
         <exclude name="Squiz.Commenting.FileComment.SpacingAfterOpen" />
         <exclude name="Squiz.Commenting.FunctionComment.Missing" />
         <exclude name="Squiz.Commenting.VariableComment.Missing" />
+        <exclude name="Squiz.Commenting.VariableComment.MissingVar" />
         <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpen" />
 
         <exclude name="WordPress.Arrays" />
