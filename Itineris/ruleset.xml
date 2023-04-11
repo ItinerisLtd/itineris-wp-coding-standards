@@ -80,5 +80,6 @@
         <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis" />
         <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis" />
         <exclude name="WordPress.WhiteSpace" />
+        <exclude name="WordPress.WP.EnqueuedResourceParameters.MissingVersion" />
     </rule>
 </ruleset>
