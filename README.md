@@ -38,7 +38,7 @@ Using it on [Bedrock](https://github.com/roots/bedrock) or [Sage](https://github
 ## Installation
 
 ```sh-session
-$ composer require --dev itinerisltd/itineris-wp-coding-standards
+composer require --dev itinerisltd/itineris-wp-coding-standards
 ```
 
 ## Usage
@@ -77,16 +77,20 @@ First, create [`phpcs.xml`](https://github.com/squizlabs/PHP_CodeSniffer/wiki/An
     <!-- TODO: Define expected text domains -->
     <rule ref="WordPress.WP.I18n">
         <properties>
-            <property name="text_domain" type="array" value="my-plugin,my-theme,woocommerce,sage"/>
+            <property name="text_domain" type="array">
+                <element value="my-plugin"/>
+                <element value="my-theme"/>
+                <element value="woocommerce"/>
+                <element value="sage"/>
+            </property>
         </properties>
     </rule>
 </ruleset>
 ```
 
-Then, define [composer scripts](https://getcomposer.org/doc/articles/scripts.md):
+Then, define [composer scripts](https://getcomposer.org/doc/articles/scripts.md) in `composer.json`:
 
 ```json
-# composer.json
 {
   "scripts": {
     "style:check": "phpcs",
@@ -98,8 +102,8 @@ Then, define [composer scripts](https://getcomposer.org/doc/articles/scripts.md)
 Run the commands:
 
 ```sh-session
-$ composer style:check
-$ composer style:fix
+composer style:check
+composer style:fix
 ```
 
 ## Required Readings
