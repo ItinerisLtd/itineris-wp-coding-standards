@@ -1,0 +1,67 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow
+
+name: "Integrate"
+
+on:
+    pull_request: null
+    push:
+        branches:
+        - "master"
+# Add [skip ci] to commit message to skip CI.
+
+permissions:
+    contents: "read"
+
+concurrency:
+    group: "${{ github.workflow }}-${{ github.ref }}"
+    cancel-in-progress: true
+
+jobs:
+    ruleset:
+        name: "Ruleset"
+        runs-on: "ubuntu-22.04"
+        timeout-minutes: 5
+        steps:
+        -
+            name: "Set up PHP"
+            uses: "shivammathur/setup-php@v2"
+            with:
+                php-version: "8.1"
+                coverage: "none"
+        -
+            name: "Checkout repository"
+            uses: "actions/checkout@v3"
+        -
+            name: "Validate Composer configuration"
+            run: "composer validate --no-interaction --strict"
+        -
+            name: "Install dependencies"
+            uses: "ramsey/composer-install@v2"
+            with:
+                dependency-versions: "highest"
+        -
+            name: "Validate ruleset"
+            uses: "szepeviktor/phpcs-ruleset-validator@v0.4.0"
+            with:
+                xml_ruleset: "Itineris/ruleset.xml"
+
+    exported_files:
+        name: "Exported files"
+        runs-on: "ubuntu-22.04"
+        timeout-minutes: 1
+        steps:
+        -
+            name: "Checkout repository"
+            uses: "actions/checkout@v3"
+        -
+            name: "Check exported files"
+            run: |
+                EXPECTED="LICENSE,README.md,composer.json"
+                CURRENT="$(
+                    git archive HEAD \
+                        | tar --list --exclude="Itineris" --exclude="Itineris/*" \
+                        | paste --serial --delimiters=","
+                )"
+                echo "CURRENT =${CURRENT}"
+                echo "EXPECTED=${EXPECTED}"
+                test "${CURRENT}" = "${EXPECTED}"
