@@ -36,8 +36,9 @@
     "source": "https://github.com/ItinerisLtd/itineris-wp-coding-standards"
   },
   "require": {
-    "php": "^7.2 || ^8.0",
-    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+    "php": "^8.1",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "slevomat/coding-standard": "^8.8",
     "wp-coding-standards/wpcs": "^2.3"
   },
   "require-dev": {
