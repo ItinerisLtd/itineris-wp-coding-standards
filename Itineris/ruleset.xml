@@ -10,6 +10,22 @@
     <rule ref="Generic.PHP.RequireStrictTypes">
         <exclude-pattern>/index.php</exclude-pattern>
     </rule>
+    <rule ref="Generic.PHP.ForbiddenFunctions">
+        <properties>
+            <property name="forbiddenFunctions" type="array">
+                <element key="create_function" value="null" />
+                <element key="phpinfo" value="null" />
+                <element key="eval" value="null" />
+                <element key="system" value="null" />
+                <element key="file_get_contents" value="null" />
+                <element key="fopen" value="null" />
+                <element key="print_r" value="null" />
+                <element key="sizeof" value="count" />
+                <element key="delete" value="unset" />
+                <element key="print" value="echo" />
+            </property>
+        </properties>
+    </rule>
 
     <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma" />
     <!-- TODO: Remove this when WPCS supports PHP 8. -->
