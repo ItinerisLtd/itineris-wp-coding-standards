@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.0](https://github.com/itinerisltd/itineris-wp-coding-standards/tree/1.0.0) (2023-04-17)
+
+[Full Changelog](https://github.com/itinerisltd/itineris-wp-coding-standards/compare/0.4.1...1.0.0)
+
+**Merged pull requests:**
+
+- 2023 02 01 [\#39](https://github.com/ItinerisLtd/itineris-wp-coding-standards/pull/39) ([codepuncher](https://github.com/codepuncher))
+
 ## [0.4.1](https://github.com/itinerisltd/itineris-wp-coding-standards/tree/0.4.1) (2022-09-01)
 
 [Full Changelog](https://github.com/itinerisltd/itineris-wp-coding-standards/compare/0.4.0...0.4.1)
