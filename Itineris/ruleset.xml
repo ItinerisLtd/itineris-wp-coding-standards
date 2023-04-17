@@ -28,7 +28,6 @@
     </rule>
 
     <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma" />
-    <!-- TODO: Remove this when WPCS supports PHP 8. -->
     <rule ref="SlevomatCodingStandard.Functions.DisallowTrailingCommaInDeclaration" />
     <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInCall" />
     <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInClosureUse" />
