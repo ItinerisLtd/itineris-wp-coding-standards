@@ -28,7 +28,7 @@
 
 [Itineris WP Coding Standards](https://github.com/ItinerisLtd/itineris-wp-coding-standards) is a project with rulesets for code style and quality tools to be used in Itineris WordPress projects.
 
-It is a mix of [PSR-1](https://www.php-fig.org/psr/psr-1/), [PSR-2](https://www.php-fig.org/psr/psr-2), [PSR-4](https://www.php-fig.org/psr/psr-4/), [PSR-12](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md), [Slevomat](https://github.com/slevomat/coding-standard) and [WordPress](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards) coding standards.
+It is a mix of [PSR-12](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md), [Slevomat](https://github.com/slevomat/coding-standard) and [WordPress coding standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards).
 
 Whenever there's a conflict between PSR and WPCS, always prefer PSR.
 
