@@ -1,101 +1,101 @@
 <?xml version="1.0"?>
-<ruleset name="Itineris" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../vendor/squizlabs/php_codesniffer/phpcs.xsd">
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Itineris" xsi:noNamespaceSchemaLocation="../vendor/squizlabs/php_codesniffer/phpcs.xsd">
     <description>Itineris WordPress Coding Standards</description>
 
-    <rule ref="PSR2" />
+    <rule ref="PSR2"/>
     <rule ref="PSR12">
-        <exclude name="PSR12.Files.FileHeader" />
+        <exclude name="PSR12.Files.FileHeader"/>
     </rule>
-    <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
     <rule ref="Generic.PHP.RequireStrictTypes">
         <exclude-pattern>/index.php</exclude-pattern>
     </rule>
     <rule ref="Generic.PHP.ForbiddenFunctions">
         <properties>
             <property name="forbiddenFunctions" type="array">
-                <element key="create_function" value="null" />
-                <element key="phpinfo" value="null" />
-                <element key="eval" value="null" />
-                <element key="system" value="null" />
-                <element key="file_get_contents" value="null" />
-                <element key="fopen" value="null" />
-                <element key="print_r" value="null" />
-                <element key="sizeof" value="count" />
-                <element key="delete" value="unset" />
-                <element key="print" value="echo" />
+                <element key="create_function" value="null"/>
+                <element key="phpinfo" value="null"/>
+                <element key="eval" value="null"/>
+                <element key="system" value="null"/>
+                <element key="file_get_contents" value="null"/>
+                <element key="fopen" value="null"/>
+                <element key="print_r" value="null"/>
+                <element key="sizeof" value="count"/>
+                <element key="delete" value="unset"/>
+                <element key="print" value="echo"/>
             </property>
         </properties>
     </rule>
 
-    <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma" />
+    <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma"/>
     <!-- TODO: Remove this when WPCS supports PHP 8. -->
-    <rule ref="SlevomatCodingStandard.Functions.DisallowTrailingCommaInDeclaration" />
-    <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInCall" />
-    <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInClosureUse" />
-    <rule ref="SlevomatCodingStandard.Functions.UnusedInheritedVariablePassedToClosure" />
-    <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses" />
-    <rule ref="SlevomatCodingStandard.Namespaces.DisallowGroupUse" />
-    <rule ref="SlevomatCodingStandard.Namespaces.MultipleUsesPerLine" />
-    <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses" />
-    <rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators" />
-    <rule ref="SlevomatCodingStandard.PHP.ShortList" />
-    <rule ref="SlevomatCodingStandard.PHP.TypeCast" />
-    <rule ref="SlevomatCodingStandard.PHP.TypeCast" />
-    <rule ref="SlevomatCodingStandard.TypeHints.DisallowMixedTypeHint" />
-    <rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints" />
+    <rule ref="SlevomatCodingStandard.Functions.DisallowTrailingCommaInDeclaration"/>
+    <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInCall"/>
+    <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInClosureUse"/>
+    <rule ref="SlevomatCodingStandard.Functions.UnusedInheritedVariablePassedToClosure"/>
+    <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses"/>
+    <rule ref="SlevomatCodingStandard.Namespaces.DisallowGroupUse"/>
+    <rule ref="SlevomatCodingStandard.Namespaces.MultipleUsesPerLine"/>
+    <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses"/>
+    <rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators"/>
+    <rule ref="SlevomatCodingStandard.PHP.ShortList"/>
+    <rule ref="SlevomatCodingStandard.PHP.TypeCast"/>
+    <rule ref="SlevomatCodingStandard.PHP.TypeCast"/>
+    <rule ref="SlevomatCodingStandard.TypeHints.DisallowMixedTypeHint"/>
+    <rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints"/>
     <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint">
-        <exclude name="SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingTraversableTypeHintSpecification" />
+        <exclude name="SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingTraversableTypeHintSpecification"/>
     </rule>
-    <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing" />
+    <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing"/>
     <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint">
-        <exclude name="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingTraversableTypeHintSpecification" />
+        <exclude name="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingTraversableTypeHintSpecification"/>
         <exclude-pattern>/app/View/Composers/</exclude-pattern>
         <exclude-pattern>/app/Blocks/</exclude-pattern>
     </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint">
-        <exclude name="SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingTraversableTypeHintSpecification" />
+        <exclude name="SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingTraversableTypeHintSpecification"/>
     </rule>
-    <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing" />
-    <rule ref="SlevomatCodingStandard.Variables.UnusedVariable" />
-    <rule ref="SlevomatCodingStandard.Variables.UselessVariable" />
+    <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing"/>
+    <rule ref="SlevomatCodingStandard.Variables.UnusedVariable"/>
+    <rule ref="SlevomatCodingStandard.Variables.UselessVariable"/>
 
     <rule ref="WordPress">
-        <exclude name="Generic.Arrays.DisallowShortArraySyntax.Found" />
-        <exclude name="Generic.Classes.OpeningBraceSameLine.BraceOnNewLine" />
-        <exclude name="Generic.Commenting.DocComment.MissingShort" />
-        <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSameWarning" />
-        <exclude name="Generic.Functions.OpeningFunctionBraceKernighanRitchie.BraceOnNewLine" />
-        <exclude name="Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceAfterOpen" />
-        <exclude name="Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceBeforeClose" />
-        <exclude name="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed" />
+        <exclude name="Generic.Arrays.DisallowShortArraySyntax.Found"/>
+        <exclude name="Generic.Classes.OpeningBraceSameLine.BraceOnNewLine"/>
+        <exclude name="Generic.Commenting.DocComment.MissingShort"/>
+        <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSameWarning"/>
+        <exclude name="Generic.Functions.OpeningFunctionBraceKernighanRitchie.BraceOnNewLine"/>
+        <exclude name="Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceAfterOpen"/>
+        <exclude name="Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceBeforeClose"/>
+        <exclude name="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed"/>
 
-        <exclude name="PEAR.Functions.FunctionCallSignature" />
+        <exclude name="PEAR.Functions.FunctionCallSignature"/>
 
-        <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace" />
+        <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace"/>
 
-        <exclude name="Squiz.Commenting.ClassComment.Missing" />
-        <exclude name="Squiz.Commenting.FileComment.Missing" />
-        <exclude name="Squiz.Commenting.FileComment.MissingPackageTag" />
-        <exclude name="Squiz.Commenting.FileComment.SpacingAfterOpen" />
-        <exclude name="Squiz.Commenting.FunctionComment.Missing" />
-        <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment" />
-        <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag" />
-        <exclude name="Squiz.Commenting.VariableComment.Missing" />
-        <exclude name="Squiz.Commenting.VariableComment.MissingParam" />
-        <exclude name="Squiz.Commenting.VariableComment.MissingVar" />
-        <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpen" />
+        <exclude name="Squiz.Commenting.ClassComment.Missing"/>
+        <exclude name="Squiz.Commenting.FileComment.Missing"/>
+        <exclude name="Squiz.Commenting.FileComment.MissingPackageTag"/>
+        <exclude name="Squiz.Commenting.FileComment.SpacingAfterOpen"/>
+        <exclude name="Squiz.Commenting.FunctionComment.Missing"/>
+        <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
+        <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag"/>
+        <exclude name="Squiz.Commenting.VariableComment.Missing"/>
+        <exclude name="Squiz.Commenting.VariableComment.MissingParam"/>
+        <exclude name="Squiz.Commenting.VariableComment.MissingVar"/>
+        <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpen"/>
 
-        <exclude name="WordPress.Arrays" />
-        <exclude name="WordPress.Files.FileName" />
-        <exclude name="WordPress.NamingConventions.ValidFunctionName" />
-        <exclude name="WordPress.NamingConventions.ValidHookName" />
-        <exclude name="WordPress.NamingConventions.ValidVariableName" />
-        <exclude name="WordPress.PHP.DisallowShortTernary" />
-        <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.ExtraSpaceAfterCloseParenthesis" />
-        <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis" />
-        <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis" />
-        <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis" />
-        <exclude name="WordPress.WhiteSpace" />
-        <exclude name="WordPress.WP.EnqueuedResourceParameters.MissingVersion" />
+        <exclude name="WordPress.Arrays"/>
+        <exclude name="WordPress.Files.FileName"/>
+        <exclude name="WordPress.NamingConventions.ValidFunctionName"/>
+        <exclude name="WordPress.NamingConventions.ValidHookName"/>
+        <exclude name="WordPress.NamingConventions.ValidVariableName"/>
+        <exclude name="WordPress.PHP.DisallowShortTernary"/>
+        <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.ExtraSpaceAfterCloseParenthesis"/>
+        <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis"/>
+        <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis"/>
+        <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis"/>
+        <exclude name="WordPress.WhiteSpace"/>
+        <exclude name="WordPress.WP.EnqueuedResourceParameters.MissingVersion"/>
     </rule>
 </ruleset>
