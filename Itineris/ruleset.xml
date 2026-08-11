@@ -87,8 +87,12 @@
         <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpen" />
         <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingBeforeClose" />
 
-        <exclude name="Universal.Operators.DisallowShortTernary" />
         <exclude name="Universal.Arrays.DisallowShortArraySyntax.Found" />
+        <exclude name="Universal.NamingConventions.NoReservedKeywordParameterNames.classFound" />
+        <exclude name="Universal.NamingConventions.NoReservedKeywordParameterNames.defaultFound" />
+        <exclude name="Universal.NamingConventions.NoReservedKeywordParameterNames.echoFound" />
+        <exclude name="Universal.NamingConventions.NoReservedKeywordParameterNames.interfaceFound" />
+        <exclude name="Universal.Operators.DisallowShortTernary" />
 
         <exclude name="WordPress.Arrays" />
         <exclude name="WordPress.Files.FileName" />
