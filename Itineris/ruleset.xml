@@ -67,6 +67,9 @@
         <exclude name="Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceBeforeClose" />
         <exclude name="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed" />
 
+        <exclude name="NormalizedArrays.Arrays.ArrayBraceSpacing.SpaceAfterArrayOpenerSingleLine" />
+        <exclude name="NormalizedArrays.Arrays.ArrayBraceSpacing.SpaceBeforeArrayCloserSingleLine" />
+
         <exclude name="PEAR.Functions.FunctionCallSignature" />
 
         <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace" />
@@ -82,6 +85,10 @@
         <exclude name="Squiz.Commenting.VariableComment.MissingParam" />
         <exclude name="Squiz.Commenting.VariableComment.MissingVar" />
         <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpen" />
+        <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingBeforeClose" />
+
+        <exclude name="Universal.Operators.DisallowShortTernary" />
+        <exclude name="Universal.Arrays.DisallowShortArraySyntax.Found" />
 
         <exclude name="WordPress.Arrays" />
         <exclude name="WordPress.Files.FileName" />
@@ -95,8 +102,5 @@
         <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis" />
         <exclude name="WordPress.WhiteSpace" />
         <exclude name="WordPress.WP.EnqueuedResourceParameters.MissingVersion" />
-
-        <exclude name="Universal.Operators.DisallowShortTernary" />
-        <exclude name="Universal.Arrays.DisallowShortArraySyntax.Found" />
     </rule>
 </ruleset>
