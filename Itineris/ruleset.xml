@@ -89,7 +89,6 @@
         <exclude name="WordPress.NamingConventions.ValidFunctionName" />
         <exclude name="WordPress.NamingConventions.ValidHookName" />
         <exclude name="WordPress.NamingConventions.ValidVariableName" />
-        <exclude name="WordPress.PHP.DisallowShortTernary" />
         <exclude name="WordPress.PHP.YodaConditions.NotYoda" />
         <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.ExtraSpaceAfterCloseParenthesis" />
         <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis" />
@@ -97,5 +96,7 @@
         <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis" />
         <exclude name="WordPress.WhiteSpace" />
         <exclude name="WordPress.WP.EnqueuedResourceParameters.MissingVersion" />
+
+        <exclude name="Universal.Operators.DisallowShortTernary" />
     </rule>
 </ruleset>
