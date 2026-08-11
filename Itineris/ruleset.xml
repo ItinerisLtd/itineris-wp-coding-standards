@@ -59,7 +59,6 @@
     <rule ref="SlevomatCodingStandard.Variables.UselessVariable" />
 
     <rule ref="WordPress">
-        <exclude name="Generic.Arrays.DisallowShortArraySyntax.Found" />
         <exclude name="Generic.Classes.OpeningBraceSameLine.BraceOnNewLine" />
         <exclude name="Generic.Commenting.DocComment.MissingShort" />
         <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSameWarning" />
@@ -98,5 +97,6 @@
         <exclude name="WordPress.WP.EnqueuedResourceParameters.MissingVersion" />
 
         <exclude name="Universal.Operators.DisallowShortTernary" />
+        <exclude name="Universal.Arrays.DisallowShortArraySyntax.Found" />
     </rule>
 </ruleset>
