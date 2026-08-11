@@ -59,7 +59,6 @@
     <rule ref="SlevomatCodingStandard.Variables.UselessVariable" />
 
     <rule ref="WordPress">
-        <exclude name="Generic.Arrays.DisallowShortArraySyntax.Found" />
         <exclude name="Generic.Classes.OpeningBraceSameLine.BraceOnNewLine" />
         <exclude name="Generic.Commenting.DocComment.MissingShort" />
         <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSameWarning" />
@@ -67,6 +66,9 @@
         <exclude name="Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceAfterOpen" />
         <exclude name="Generic.WhiteSpace.ArbitraryParenthesesSpacing.SpaceBeforeClose" />
         <exclude name="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed" />
+
+        <exclude name="NormalizedArrays.Arrays.ArrayBraceSpacing.SpaceAfterArrayOpenerSingleLine" />
+        <exclude name="NormalizedArrays.Arrays.ArrayBraceSpacing.SpaceBeforeArrayCloserSingleLine" />
 
         <exclude name="PEAR.Functions.FunctionCallSignature" />
 
@@ -83,6 +85,14 @@
         <exclude name="Squiz.Commenting.VariableComment.MissingParam" />
         <exclude name="Squiz.Commenting.VariableComment.MissingVar" />
         <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpen" />
+        <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingBeforeClose" />
+
+        <exclude name="Universal.Arrays.DisallowShortArraySyntax.Found" />
+        <exclude name="Universal.NamingConventions.NoReservedKeywordParameterNames.classFound" />
+        <exclude name="Universal.NamingConventions.NoReservedKeywordParameterNames.defaultFound" />
+        <exclude name="Universal.NamingConventions.NoReservedKeywordParameterNames.echoFound" />
+        <exclude name="Universal.NamingConventions.NoReservedKeywordParameterNames.interfaceFound" />
+        <exclude name="Universal.Operators.DisallowShortTernary" />
 
         <exclude name="WordPress.Arrays" />
         <exclude name="WordPress.Files.FileName" />
@@ -96,7 +106,5 @@
         <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis" />
         <exclude name="WordPress.WhiteSpace" />
         <exclude name="WordPress.WP.EnqueuedResourceParameters.MissingVersion" />
-
-        <exclude name="Universal.Operators.DisallowShortTernary" />
     </rule>
 </ruleset>
